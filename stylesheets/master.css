@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Patua+One|Ubuntu|Vollkorn+SC");
+/* line 92, ../sass/parts/_toolbox.sass */
+h1 {
+  font-size: 2em;
+}
+@media (min-width: 700px) {
+  /* line 92, ../sass/parts/_toolbox.sass */
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+/* line 96, ../sass/parts/_toolbox.sass */
+h2 {
+  font-size: 1.75em;
+}
+@media (min-width: 700px) {
+  /* line 96, ../sass/parts/_toolbox.sass */
+  h2 {
+    font-size: 2.25em;
+  }
+}
+
+/* line 100, ../sass/parts/_toolbox.sass */
+h3 {
+  font-size: 1.25em;
+}
+@media (min-width: 700px) {
+  /* line 100, ../sass/parts/_toolbox.sass */
+  h3 {
+    font-size: 2em;
+  }
+}
+
+/* line 104, ../sass/parts/_toolbox.sass */
+h4 {
+  font-size: 1.25em;
+}
+@media (min-width: 700px) {
+  /* line 104, ../sass/parts/_toolbox.sass */
+  h4 {
+    font-size: 1.75em;
+  }
+}
+
+/* line 108, ../sass/parts/_toolbox.sass */
+h5 {
+  font-size: 1em;
+}
+@media (min-width: 700px) {
+  /* line 108, ../sass/parts/_toolbox.sass */
+  h5 {
+    font-size: 1.5em;
+  }
+}
+
+/* line 112, ../sass/parts/_toolbox.sass */
+a,
+p {
+  font-size: 1em;
+}
+@media (min-width: 700px) {
+  /* line 112, ../sass/parts/_toolbox.sass */
+  a,
+  p {
+    font-size: 1.5em;
+  }
+}
+
+/* line 1, ../sass/parts/_base.sass */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  line-height: 1.9em;
+}
+
+/* line 6, ../sass/parts/_base.sass */
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #262626;
+}
+
+/* line 10, ../sass/parts/_base.sass */
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vollkorn;
+}
+
+/* line 14, ../sass/parts/_base.sass */
+.intro-section {
+  min-height: 100%;
+  padding-top: 100px;
+  text-align: center;
+  color: #f1f1f1;
+  background: #23232d;
+}
+@media (min-width: 700px) {
+  /* line 14, ../sass/parts/_base.sass */
+  .intro-section {
+    padding-top: 150px;
+  }
+}
+
+/* line 23, ../sass/parts/_base.sass */
+.about-section {
+  min-height: 100vh;
+  padding: 60px 0;
+  text-align: center;
+}
+@media (min-width: 700px) {
+  /* line 23, ../sass/parts/_base.sass */
+  .about-section {
+    padding-top: 100px;
+  }
+}
+
+/* line 31, ../sass/parts/_base.sass */
+.services-section {
+  min-height: 100vh;
+  padding: 60px 0;
+  text-align: center;
+  background: #fff;
+  background-image: url("../img/paint-1.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+@media (min-width: 700px) {
+  /* line 31, ../sass/parts/_base.sass */
+  .services-section {
+    padding-top: 100px;
+  }
+}
+
+/* line 41, ../sass/parts/_base.sass */
+.contact-section {
+  min-height: 100vh;
+  padding: 60px 0 40vh;
+  text-align: center;
+  background: #eee;
+}
+@media (min-width: 700px) {
+  /* line 41, ../sass/parts/_base.sass */
+  .contact-section {
+    padding-top: 100px;
+  }
+}
+
+/* line 49, ../sass/parts/_base.sass */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+}
+
+/* line 2, ../sass/parts/_jumbotron.sass */
+#headerWrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  padding: 0 20px;
+}
+@media (min-width: 700px) {
+  /* line 2, ../sass/parts/_jumbotron.sass */
+  #headerWrap {
+    grid-gap: 10px;
+  }
+}
+
+/* line 10, ../sass/parts/_jumbotron.sass */
+.header-box {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  background: #777;
+  border: 1px solid #23232D;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px #f1f1f1;
+  overflow: hidden;
+  background-image: url("../img/window-1.jpg");
+  background-size: 80vh auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
+@media (min-width: 700px) {
+  /* line 10, ../sass/parts/_jumbotron.sass */
+  .header-box {
+    height: 25vh;
+    margin: 0 auto;
+    background-size: 70vw auto;
+    background-position: center;
+  }
+}
+/* line 33, ../sass/parts/_jumbotron.sass */
+.header-box h5 {
+  position: absolute;
+  top: 25%;
+  left: -20px;
+  width: 120%;
+  margin: 0 auto;
+  padding: 5px 0;
+  background: lightgray;
+  transform: rotateZ(-30deg);
+}
+
+/* line 43, ../sass/parts/_jumbotron.sass */
+#btnHeader {
+  margin: 10vh auto;
+  font-size: 1.5em;
+  font-weight: 600;
+  border: 1px solid #F1CF0B;
+  transition: 0.5s ease 0.05s;
+}
+/* line 49, ../sass/parts/_jumbotron.sass */
+#btnHeader:hover {
+  color: #fff;
+  background: #555;
+  box-shadow: 1px 1px 4px #f1f1f1;
+}
+
+/* line 1, ../sass/parts/_nav.sass */
+.navbar-default {
+  background: #555;
+}
+
+/* line 4, ../sass/parts/_nav.sass */
+.nav-clr-container {
+  background: #f1f1f1;
+  border: 1px solid #262626;
+  box-shadow: 1px 1px 4px #111;
+}
+/* line 8, ../sass/parts/_nav.sass */
+.nav-clr-container .navbar-brand {
+  color: #333;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-shadow: 0.7px 0.7px #F1CF0B;
+}
+
+/* line 14, ../sass/parts/_nav.sass */
+#menuBar ul li a {
+  color: #555;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+/* line 17, ../sass/parts/_nav.sass */
+#menuBar ul li a:hover {
+  color: #f1f1f1;
+  background: rgba(51, 51, 51, 0.8);
+  border-bottom: 3px solid #F1CF0B;
+}
+
+/* line 1, ../sass/parts/_about.sass */
+.about-section {
+  background: #F1CF0B;
+}
+/* line 4, ../sass/parts/_about.sass */
+.about-section h1 {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  color: #ffffff;
+  text-shadow: 0.8px 0.8px #111;
+  font-weight: 600;
+  background: linear-gradient(#181818 5%, rgba(85, 85, 85, 0.8) 90%, #181818 95%);
+}
+
+/* line 13, ../sass/parts/_about.sass */
+#banner1 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 16, ../sass/parts/_about.sass */
+#aboutCardContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 5vh 0;
+}
+@media (min-width: 700px) {
+  /* line 16, ../sass/parts/_about.sass */
+  #aboutCardContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* line 25, ../sass/parts/_about.sass */
+#aboutCardContainer .img-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  background: rgba(35, 35, 45, 0.8);
+}
+@media (min-width: 700px) {
+  /* line 25, ../sass/parts/_about.sass */
+  #aboutCardContainer .img-container {
+    width: 100%;
+  }
+}
+/* line 33, ../sass/parts/_about.sass */
+#aboutCardContainer .img-container img {
+  width: 100%;
+}
+
+/* line 1, ../sass/parts/_services.sass */
+.slide-show-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+@media (min-width: 700px) {
+  /* line 1, ../sass/parts/_services.sass */
+  .slide-show-container {
+    width: 60%;
+  }
+}
+
+/* line 11, ../sass/parts/_services.sass */
+.carousel-container h2 {
+  margin: 0 auto 20px;
+}
+
+/* line 14, ../sass/parts/_services.sass */
+#myCarousel {
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 700px) {
+  /* line 14, ../sass/parts/_services.sass */
+  #myCarousel {
+    width: 60%;
+  }
+}
+/* line 19, ../sass/parts/_services.sass */
+#myCarousel img {
+  width: 100%;
+}
+
+/* line 1, ../sass/parts/_contact.sass */
+.accordion-container {
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 700px) {
+  /* line 1, ../sass/parts/_contact.sass */
+  .accordion-container {
+    width: 60%;
+  }
+}
+
+/* line 7, ../sass/parts/_contact.sass */
+.panel-heading {
+  margin: 0 auto;
+  padding: 5px;
+  background: #444 !important;
+}
+
+/* line 12, ../sass/parts/_contact.sass */
+.panel-title {
+  font-size: 1.5em;
+  background: #777;
+  color: #f1f1f1;
+  transition: 0.5s ease 0.05s;
+}
+/* line 17, ../sass/parts/_contact.sass */
+.panel-title:hover {
+  background: #232323;
+}
+@media (min-width: 700px) {
+  /* line 12, ../sass/parts/_contact.sass */
+  .panel-title {
+    font-size: 2em;
+  }
+}
+/* line 21, ../sass/parts/_contact.sass */
+.panel-title a {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  text-shadow: 0.8px 0.8px #23232D;
+  text-decoration: none;
+}
+
+/* line 29, ../sass/parts/_contact.sass */
+.panel-body {
+  width: 100%;
+  background: #d4d4d4;
+}
+/* line 32, ../sass/parts/_contact.sass */
+.panel-body iframe {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 36, ../sass/parts/_contact.sass */
+#menuLocation {
+  text-decoration: none;
+  list-style: none;
+}
+/* line 38, ../sass/parts/_contact.sass */
+#menuLocation li {
+  font-size: 1.2em;
+}
+@media (min-width: 700px) {
+  /* line 38, ../sass/parts/_contact.sass */
+  #menuLocation li {
+    font-size: 1.7em;
+  }
+}
+
+/* line 43, ../sass/parts/_contact.sass */
+#iconContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+}
+@media (min-width: 700px) {
+  /* line 43, ../sass/parts/_contact.sass */
+  #iconContainer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+/* line 50, ../sass/parts/_contact.sass */
+#iconContainer .img-icon {
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 4px #23232D;
+  transition: 0.5s ease 0.05s;
+}
+/* line 55, ../sass/parts/_contact.sass */
+#iconContainer .img-icon:hover {
+  transform: scale(1.3);
+}
+/* line 57, ../sass/parts/_contact.sass */
+#iconContainer .img-icon img {
+  width: 100%;
+}

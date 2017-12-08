@@ -1,0 +1,53 @@
+*
+  +no-cush
+  font-size: 16px
+  letter-spacing: 1.1px
+  line-height: 1.9em
+html
+  +no-cush
+  color: #262626
+
+body
+  +box-fluid
+  font-family: Vollkorn
+
+.intro-section
+  min-height: 100%
+  padding-top: 100px
+  text-align: center
+  color: #f1f1f1
+  background: $clr-primary-custom
+  @media (min-width: 700px)
+    padding-top: 150px
+
+.about-section
+  min-height: 100vh
+  padding: 60px 0
+  text-align: center
+  // background: #eee
+  @media (min-width: 700px)
+    padding-top: 100px
+
+.services-section
+  min-height: 100vh
+  padding: 60px 0
+  text-align: center
+  background: #fff
+  background-image: url('../img/paint-1.png')
+  +bg-cover-fixed
+  @media (min-width: 700px)
+    padding-top: 100px
+
+.contact-section
+  min-height: 100vh
+  padding: 60px 0 40vh
+  text-align: center
+  background: #eee
+  @media (min-width: 700px)
+    padding-top: 100px
+
+footer
+  position: fixed
+  bottom: 0
+  width: 100%
+  text-align: right

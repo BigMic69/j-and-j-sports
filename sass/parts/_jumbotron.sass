@@ -1,0 +1,52 @@
+// JUMBOTRON
+#headerWrap
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  grid-gap: 5px
+  padding: 0 20px
+  @media (min-width: 700px)
+    grid-gap: 10px
+
+.header-box
+  position: relative
+  width: 100%
+  height: 20vh
+  +no-cush
+  color: #333
+  background: #777
+  border: 1px solid $clr-patriot-blue
+  border-radius: 5px
+  box-shadow: 1px 1px 4px #f1f1f1
+  overflow: hidden
+  background-image: url('../img/window-1.jpg')
+  background-size: 80vh auto
+  background-repeat: no-repeat
+  background-position: center top
+  background-attachment: fixed
+  @media (min-width: 700px)
+    // width: 70%
+    height: 25vh
+    margin: 0 auto
+    background-size: 70vw auto
+    background-position: center
+    // background-size: cover
+  h5
+    position: absolute
+    top: 25%
+    left: -20px
+    width: 120%
+    margin: 0 auto
+    padding: 5px 0
+    background: rgba(#d3d3d3, 1)
+    transform: rotateZ(-30deg)
+
+#btnHeader
+  margin: 10vh auto
+  font-size: 1.5em
+  font-weight: 600
+  border: 1px solid $clr-yellow
+  +trans-0
+  &:hover
+    color: #fff
+    background: #555
+    box-shadow: 1px 1px 4px #f1f1f1
