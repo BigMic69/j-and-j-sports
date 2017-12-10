@@ -40,14 +40,30 @@ body
 
 .contact-section
   min-height: 100vh
-  padding: 60px 0 40vh
+  padding: 20vh 0 40vh
   text-align: center
-  background: #eee
+  background: $clr-lime
+  background-image: url('../img/screen-1.jpg')
+  +bg-cover-fixed
+  // background-size: 100vw auto
+  background-position: center
+  background-repeat: no-repeat
   @media (min-width: 700px)
     padding-top: 100px
 
 footer
   position: fixed
   bottom: 0
+  right: 10px
   width: 100%
   text-align: right
+  h5
+    span
+      font-size: 1em
+      color: #f1f1f1
+      text-shadow: .6px .6px $clr-patriot-blue
+      @media (min-width: 700px)
+        font-size: 1.25em
+    a
+      color: $clr-patriot-blue
+      text-shadow: .8px .8px #fff

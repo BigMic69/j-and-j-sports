@@ -1,58 +1,76 @@
 .accordion-container
-  width: 90%
+  width: 98%
   margin: 0 auto
+  padding: 0
   @media (min-width: 700px)
-    width: 60%
+    width: 50%
 
 .panel-heading
   margin: 0 auto
-  padding: 5px
-  background: #444 !important
-
-.panel-title
-  font-size: 1.5em
-  background: #777
-  color: #f1f1f1
+  padding: 3px
+  background: $clr-lime !important
   +trans-0
   &:hover
-    background: #232323
+    background: $clr-orange !important
+
+.panel-title
+  +no-cush
+  font-size: 1.5em
+  color: #333
+  background: $clr-med-grey
+  +trans-0
+  &:hover
+    color: $clr-orange
+    background: $clr-patriot-blue
   @media (min-width: 700px)
     font-size: 2em
   a
-    padding: 10px 0
+    margin: 0 auto
+    padding: 0
     display: flex
     justify-content: center
     font-weight: 600
-    text-shadow: .8px .8px $clr-patriot-blue
+    text-shadow: .5px .5px #f1f1f1
     text-decoration: none
 
 .panel-body
   width: 100%
-  background: #d4d4d4
+  margin: 0 auto
+  padding: 20px 5px
+  background: #f8f8f8
+  border: 1px solid $clr-patriot-blue
   iframe
-    width: 90%
+    width: 98%
     margin: 0 auto
 
 #menuLocation
+  +no-cush
   +menu-style
   li
-    font-size: 1.2em
+    margin: 0 auto
+    padding: 5px 0
+    font-size: .8em
+    text-shadow: .5px .5px #fff
+    @media (min-width: 520px)
+      font-size: 1.4em
     @media (min-width: 700px)
-      font-size: 1.7em
+      font-size: 2em
 
 #iconContainer
   display: grid
   grid-template-columns: repeat(4, 1fr)
   grid-gap: 20px
+  padding: 1px
   justify-content: center
   @media (min-width: 700px)
     grid-template-columns: repeat(6, 1fr)
   .img-icon
     width: 80%
     margin: 0 auto
-    box-shadow: 1px 1px 4px $clr-patriot-blue
+    box-shadow: 1px 1px 3px $clr-patriot-blue
     +trans-0
     &:hover
       transform: scale(1.3)
+      box-shadow: 1px 1px 3px $clr-orange
     img
       width: 100%

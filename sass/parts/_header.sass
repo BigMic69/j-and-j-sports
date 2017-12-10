@@ -19,9 +19,9 @@
   box-shadow: 1px 1px 4px #f1f1f1
   overflow: hidden
   background-image: url('../img/window-1.jpg')
-  background-size: 80vh auto
+  background-size: cover
   background-repeat: no-repeat
-  background-position: center top
+  background-position: center
   background-attachment: fixed
   @media (min-width: 700px)
     // width: 70%
@@ -32,12 +32,15 @@
     // background-size: cover
   h5
     position: absolute
-    top: 25%
+    top: 30%
     left: -20px
     width: 120%
     margin: 0 auto
     padding: 5px 0
-    background: rgba(#d3d3d3, 1)
+    color: #f1f1f1
+    background: $clr-patriot-blue
+    border: 1px solid $clr-light-grey
+    text-shadow: .5px .5px $clr-orange
     transform: rotateZ(-30deg)
 
 #btnHeader
